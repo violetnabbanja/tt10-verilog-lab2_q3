@@ -19,7 +19,7 @@ module tt_um_lab2_q3 (
 
   // All output pins must be assigned. If not used, assign to 0.
     assign uo_out[6:0]  = ui_in[6:0] + uio_in[6:0];
-    assign uo_out[7] = ui_in[7]
+    assign uo_out[7] = ui_in[7];
         
     assign uio_out = 0;
     assign uio_oe  = 0;
